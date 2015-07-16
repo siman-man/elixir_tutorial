@@ -12,3 +12,12 @@ IO.puts "Hello Elixir"
 IO.puts String.length("Hello")      #=> 5
 IO.puts String.length("あいうえお") #=> 5
 ```
+
+変数宣言
+
+```elixir
+str = "abc"
+IO.puts str #=> abc
+```
+
+型は必要なし
